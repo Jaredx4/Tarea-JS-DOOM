@@ -148,7 +148,7 @@ button {
 }
 
 .card-imagen-back {
-  background-image: url(/hojas.jpg);
+  background-image: url(/Images/hojas.jpg);
   border-radius: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
@@ -165,14 +165,14 @@ button {
 }
 
 .card-imagen-back2 {
-  background-image: url(/agua.jpg);
+  background-image: url(/Images/agua.jpg);
   border-radius: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
 }
 
 .card-imagen-back3 {
-  background-image: url(/fuego.jpg);
+  background-image: url(/Images/fuego.jpg);
   border-radius: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
