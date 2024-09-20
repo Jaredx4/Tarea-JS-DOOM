@@ -1,23 +1,314 @@
 .card-img-top {
-  height: 200px;
-  object-fit: cover;
+
+  width: 100%;
+  height: auto;
 }
+
+body {
+  background: linear-gradient(rgb(228, 151, 151), rgb(231, 201, 67))
+}
+
+
+.hojass {
+
+  width: 4rem;
+}
+
+.NombreMain {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h3{
+  color: #000;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+#Ingreso,
+#Ingreso23,
+#Ingreso231,
+#Ingreso232 {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+  font-size: 18px;
+  border: 2px solid #9b9496;
+  border-radius: 10px;
+  background-color: #e2c1d2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+
+}
+
+
+.boton {
+  display: grid;
+  width: 50%;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  padding: 12px 36px;
+  border: none;
+
+}
+
+.b-enviar {
+
+  display: block;
+  text-align: center;
+  width: 28%;
+  height: 13%;
+  background-color: #fff;
+  color: #000;
+  padding: 0.1rem 0.2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  transition: background-color 0.3s ease;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: 4px solid #444;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+
+button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  width: 80%;
+  height: 80%;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-color: #000;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #615b5b;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.6rem;
+}
+
+.tipo-fuego,
+.tipo-agua,
+.tipo-planta {
+  display: flex;
+  margin: 0 auto;
+  width: 10%;
+  margin-top: 6rem;
+}
+
+.card {
+  justify-items: center;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+
+  border-width: medium;
+}
+
+.cardcha {
+  background: linear-gradient(rgb(221, 164, 164), rgb(223, 167, 167));
+  box-shadow: black;
+
+
+}
+
+.cardbla {
+  background: linear-gradient(rgb(214, 211, 228), rgb(210, 212, 233));
+}
+
+.cardven {
+  background: linear-gradient(rgb(164, 221, 178), rgb(172, 231, 170));
+}
+
+.card-title {
+  text-align: center;
+  font-family: 'Pokemon', sans-serif;
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: center;
+  font-family: 'Pokemon', sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 1rem;
+}
+
+.card-imagen-back {
+  background-image: url(/hojas.jpg);
+  border-radius: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+}
+
+#imagen-bla1,
+#imagen-cha1,
+#imagen-vena1 {
+  border: 5px solid #998585;
+  /* Borde de 5 píxeles de grosor y color negro */
+  border-radius: 10px;
+  /* Bordes redondeados opcionales */
+  border-radius: 50%;
+}
+
+.card-imagen-back2 {
+  background-image: url(/agua.jpg);
+  border-radius: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+}
+
+.card-imagen-back3 {
+  background-image: url(/fuego.jpg);
+  border-radius: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+
+}
+
 .profile-image-container {
   position: relative;
   height: 50px;
   margin-top: -50px;
+  transition: transform 0.6s ease;
 }
+
+
+
+/*.cont:hover {
+  transform: scale(1.1);
+  /*transform: translateX(-50%) scale(1.1); 
+}*/
+
+#imagen-cha:hover {
+  transform: scale(1.1);
+  transition: transform 0.6s ease;
+}
+
+#imagen-bla:hover {
+  transform: scale(1.1);
+  transition: transform 0.6s ease;
+}
+
+#imagen-vena:hover {
+  transform: scale(1.1);
+  transition: transform 0.6s ease;
+}
+
 .profile-image {
-  width: 100px;
-  height: 100px;
+  margin-top: -1rem;
+  width: 50%;
+  height: 320%;
   border-radius: 50%;
-  border: 3px solid #212529;
+
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  transition: transform 0.6s ease;
 }
+
 .card-body {
-  padding-top: 60px;
+  padding-top: 1rem;
+
+
 }
+
+.Azul {
+  background: linear-gradient(rgb(201, 201, 218), rgb(115, 108, 207));
+}
+
+.Rojo {
+  background: linear-gradient(rgb(211, 152, 152), rgb(226, 31, 31));
+}
+
+.Amarillo {
+  background: linear-gradient(rgb(216, 215, 151), rgb(216, 191, 48));
+}
+
+.Morado {
+  background: linear-gradient(rgb(182, 132, 167), rgb(199, 56, 180));
+}
+
+.Verde {
+  background: linear-gradient(rgb(142, 189, 130), rgb(34, 201, 47));
+}
+
+.Celeste {
+  background: linear-gradient(rgb(162, 211, 214), rgb(42, 158, 204));
+}
+
+.Original {
+  background: linear-gradient(rgb(190, 167, 167), rgb(1, 1, 10));
+}
+
+#Ingreso23,
+#Ingreso232,
+#Ingreso231 {
+  text-align: center;
+}
+
+.ataques {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+
+}
+
+.ataque1_1 {
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.ataques1{
+  display: flex;
+}
+
+.ataques2{
+  display: flex;
+}
+.ataque1_3 {
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.ataque1_1,
+.ataque1_2,
+.ataque1_3,
+.ataque1_4 {
+
+  width: 8rem;
+  height: 3rem;
+  max-width: 100%;
+  text-align: center;
+  appearance: none;
+  background-color: #e3e3e3;
+  border: 4px solid #333;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+
+}
+

@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+ 
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  
+
+}
+
+body {
+    background: linear-gradient(rgb(228, 151, 151), rgb(221, 192, 63));
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centra verticalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(rgb(228, 151, 151), rgb(221, 192, 63));
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.poke {
+    margin-top: 0rem;
+}
+
+.container {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    
+}
+
+.imagen-p {
+    text-align: center;
+    align-items: center;
+}
+
+.info-text {
+    width: 60%;
+    text-align: justify;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+}
+
+.Caracteristicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: rgb(198, 216, 96);
+    width: 60%;
+    margin-left: 5rem;
+    padding: 1rem;
+    border-radius: 7%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.car1 {
+    margin-right: 5rem;
+    text-align: center;
+
+}
+
+.car2 {
+    text-align: center;
+
+}
+
+.tipos23 {
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.tipos2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.plantax {
+    margin-right: 3rem;
+    background-color: rgb(27, 156, 1);
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: 3px solid black;
+}
+
+.plantaz {
+    margin-right: 3rem;
+    background-color: rgb(126, 13, 126);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: 3px solid black;
+    color: black;
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nombreVen {
+    margin-top: 3rem;
+    margin-bottom: -5rem;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
